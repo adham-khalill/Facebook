@@ -1,0 +1,44 @@
+name: flutter_application_2
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    #Icons
+    - lib/Images/Icons/Comment.png
+    - lib/Images/Icons/Like.png
+    - lib/Images/Icons/Share.png
+    #Logos
+    - lib/Images/Logos/Facebook.png
+    - lib/Images/Logos/Profile.png
+    #Stories
+    - lib/Images/Stories/Story_1.png
+    - lib/Images/Stories/Story_2.png
+    - lib/Images/Stories/Story_3.png
+    - lib/Images/Stories/Story_4.png
