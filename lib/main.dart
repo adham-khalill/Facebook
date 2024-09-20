@@ -5,12 +5,12 @@ import 'login_screen.dart';
 void main() {
   runApp(MyApp());
 }
-
+//test
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: '/',
+      initialRoute: '/home',
       routes: {
         '/': (context) => LoginScreen(),
         '/home': (context) => HomeScreen(),
